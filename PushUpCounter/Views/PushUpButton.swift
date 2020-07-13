@@ -16,7 +16,7 @@ struct PushUpButton: View {
             .font(.largeTitle)
             .fontWeight(.bold)
             .foregroundColor(Color(.white))
-            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            .frame(width: 100, height: 100, alignment: .center)
             .background(Color(.systemYellow))
             .clipShape(Circle())
             .onTapGesture(perform: pushUpRobot.addOnePushUp)
